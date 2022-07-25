@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+}
+
+.wrapper {
+    width: 1510px;
+    box-sizing: border-box;
+
+}
+
+.tabs {
+    width: 1170px;
+    height: 540px;
+    margin: 0 auto;
+}
+
+.tabs__tab-bar {
+    display: flex;
+    height: 40px;
+}
+
+.tabs__tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 203px;
+    border-bottom: 1px solid #C6CBCD;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.tabs__tab_active {
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+}
+
+.tabs__tab_empty {
+    width: 600px;
+}
+
+.tabs__card {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #C6CBCD;
+    border-top: none;
+}
+
+.tabs__header {
+    width: 570px;
+    height: 124px;
+    margin: 1px 0 0 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+}
+
+.tabs__text {
+    width: 570px;
+    height: 210px;
+    margin: 27px 0 0 100px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    color: #000000;
+}
+
+.tabs__button {
+    width: 270px;
+    height: 58px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #EC7979;
+    margin: 27px 0 54px 100px;
+    border: none;
+}
+
+.tabs__img {
+    width: 470px;
+    height: 500px;
+}
