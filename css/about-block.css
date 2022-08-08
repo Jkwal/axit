@@ -20,21 +20,21 @@
 
 .about-block__item:nth-child(1)::before {
     position: absolute;
-    content: url(/img/bulb.svg);
+    content: url(../img/bulb.svg);
     top: -150px;
     left: 140px;
 }
 
 .about-block__item:nth-child(2)::before {
     position: absolute;
-    content: url(/img/keyboard.svg);
+    content: url(../img/keyboard.svg);
     top: -150px;
     left: 140px;
 }
 
 .about-block__item:nth-child(3)::before {
     position: absolute;
-    content: url(/img/lightning.svg);
+    content: url(../img/lightning.svg);
     top: -150px;
     left: 140px;
 }
