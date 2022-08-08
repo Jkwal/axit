@@ -3,126 +3,309 @@
 <head>
     <meta charset="UTF-8">
     <title>Axit</title>
-
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-
-    <link href="css/global-style.css" rel="stylesheet">
-    <link href="css/tabs-block.css" rel="stylesheet">
-    <link href="css/about-block.css" rel="stylesheet">
-    <link href="css/pricing-block.css" rel="stylesheet">
+    <link href="css/iconsfont.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-
-<section class="tabs block">
-    <nav class="tabs__tab-bar">
-        <button class="tabs__btn tabs__btn_active">TAB 1</button>
-        <button class="tabs__btn">TAB 2</button>
-        <button class="tabs__btn">TAB 3</button>
-        <button class="tabs__btn tabs__btn_empty"></button>
-    </nav>
-    <article class="tabs__card">
-        <div class="tabs__content">
-            <h2 class="tabs__title header">Tabs with soft transitioning effect.</h2>
-            <p class="tabs__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <br>euismod
-                <br>bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et <br>viverra
-                <br>justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
-                <br>penatibus et magnis dis parturient montes.</p>
-            <p class="tabs__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <br>euismod
-                <br>bibendum laoreet.</p>
-            <button class="tabs__btn-download btn-download">Download</button>
-        </div>
-        <img class="tabs__img" src="css/source/img/statue_of_liberty.svg" alt="statue_of_liberty">
-    </article>
-</section>
-
-<section class="about block">
-    <h2 class="about__title title">WHY THIS IS AWESOME</h2>
-    <div class="separator"></div>
-    <p class="about__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <ul class="about__list">
-        <li class="about__list-item">
-            <div class="about__list-img">
-                <img src="css/source/img/bulb.svg" alt="bulb"></div>
-            <h3 class="about__list-title header">Thoughtful Design</h3>
-            <p class="about__list-text text">Lorem ipsum dolor sit amet, consectetur<br> adipiscing<br>
-                elit. Aenean euismod bibendum laoreet.<br> Proin gravida dolor sit amet lacus <br>accumsan et
-                viverra.</p>
-        </li>
-        <li class="about__list-item">
-            <div class="about__list-img">
-                <img src="css/source/img/keyboard.svg" alt="keyboard"></div>
-            <h3 class="about__list-title header">Thoughtful Design</h3>
-            <p class="about__list-text text">Lorem ipsum dolor sit amet, consectetur<br> adipiscing<br>
-                elit. Aenean euismod bibendum laoreet.<br> Proin gravida dolor sit amet lacus <br>accumsan et
-                viverra.</p>
-        </li>
-        <li class="about__list-item">
-            <div class="about__list-img">
-                <img src="css/source/img/lightning.svg" alt="lightning">
-            </div>
-            <h3 class="about__list-title header">Thoughtful Design</h3>
-            <p class="about__list-text text">Lorem ipsum dolor sit amet, consectetur<br> adipiscing<br>
-                elit. Aenean euismod bibendum laoreet.<br> Proin gravida dolor sit amet lacus <br>accumsan et
-                viverra.</p>
-        </li>
-    </ul>
-</section>
-
-<div class="pricing__wrapper">
-    <section class="pricing block">
-        <h2 class="pricing__title title">PRICING OPTIONS</h2>
-        <div class="separator"></div>
-        <p class="pricing__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <div class="pricing__options">
-            <div class="pricing__package">
-                <div class="pricing__info">
-                    <h2 class="pricing__header header">Basic</h2>
-                    <p class="pricing__subheader">$10</p>
-                    <p class="pricing__text text">Free for life</p>
-                </div>
-                <ul class="pricing__info-space">
-                    <li class="pricing__space text">1 gb of space</li>
-                    <li class="pricing__space text">1 gb of space</li>
-                    <li class="pricing__space text">1 gb of space</li>
-                    <li class="pricing__space text">1 gb of space</li>
-                    <li class="pricing__space text">1 gb of space</li>
-                    <li class="pricing__space text">1 gb of space</li>
-                </ul>
-            </div>
-            <div class="pricing__package pricing__package_active">
-                <div class="pricing__info">
-                    <h2 class="pricing__header header">Optima</h2>
-                    <p class="pricing__subheader">$20</p>
-                    <p class="pricing__text text">Free for life</p>
-                </div>
-                <ul class="pricing__info-space">
-                    <li class="pricing__space text">1 gb of space</li>
-                    <li class="pricing__space text">1 gb of space</li>
-                    <li class="pricing__space text">1 gb of space</li>
-                    <li class="pricing__space text">1 gb of space</li>
-                    <li class="pricing__space text">1 gb of space</li>
-                    <li class="pricing__space text">1 gb of space</li>
-                </ul>
-            </div>
-            <div class="pricing__package">
-                <div class="pricing__info">
-                    <h2 class="pricing__header header">Pro</h2>
-                    <p class="pricing__subheader">$30</p>
-                    <p class="pricing__text text">Free for life</p>
-                </div>
-                <ul class="pricing__info-space">
-                    <li class="pricing__space text">1 gb of space</li>
-                    <li class="pricing__space text">1 gb of space</li>
-                    <li class="pricing__space text">1 gb of space</li>
-                    <li class="pricing__space text">1 gb of space</li>
-                    <li class="pricing__space text">1 gb of space</li>
-                    <li class="pricing__space text">1 gb of space</li>
-                </ul>
-            </div>
-        </div>
+<div class="header-block__wrapper">
+    <section class="header-block">
+        <img class="header-block__logo" src="img/axit_small.svg" alt="AXIT">
+        <nav class="header-block__links">
+            <ul class="header-block__items">
+                <li class="header-block__item"><a href="#tabs">Features</a></li>
+                <li class="header-block__item"><a href="#about">About</a></li>
+                <li class="header-block__item"><a href="#pricing">Pricing</a></li>
+                <li class="header-block__item"><a href="#customers">Reviews</a></li>
+                <li class="header-block__item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </section>
 </div>
-
+<div class="banner-block__wrapper">
+    <section class="banner-block">
+        <div class="banner-block__info">
+            <img class="banner-block__logo" src="img/axit_big.svg" alt="AXIT" width="170px" height="50px">
+            <h1 class="banner-block__title banner-block__title_white">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+            <div class="separator_white"></div>
+            <p class="banner-block__subtitle banner-block__subtitle_white subtitle">Lorem ipsum dolor sit amet,
+                consectetur
+                adipiscing elit</p>
+            <button class="banner-block__button banner-block__button_white" type="button">Download</button>
+        </div>
+        <form class="banner-block__form" action="https://echo.htmlacademy.ru/courses" method="post">
+            <h3 class="banner-block__header header">Try Your <span class="banner-block__red-text">FREE</span> Trial Today</h3>
+            <div class="banner-block__inputs">
+                <label>
+                    <input class="banner-block__input input" type="text" name="name" placeholder="Name">
+                </label>
+                <label>
+                    <input class="banner-block__input input" type="email" name="email" placeholder="Email">
+                </label>
+                <label>
+                    <input class="banner-block__input input" type="password" name="password" placeholder="Password">
+                </label>
+            </div>
+            <button class="banner-block__button-submit button" type="submit">Get Started</button>
+        </form>
+    </section>
+</div>
+<div class="social-block__wrapper">
+    <section class="social-block">
+        <div class="social-block__text">
+            <h3 class="social-block__header header">social media</h3>
+            <p class="social-block__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet.</p>
+        </div>
+        <ul class="social-block__links links">
+            <li><a class="icon-facebook" href="https://facebook.com" target="_blank"></a></li>
+            <li><a class="icon-twitter" href="https://twitter.com" target="_blank"></a></li>
+            <li><a class="icon-linkedin" href="https://www.linkedin.com" target="_blank"></a></li>
+            <li><a class="icon-pinterest" href="https://www.pinterest.com" target="_blank"></a></li>
+            <li><a class="icon-instagram" href="https://www.instagram.com" target="_blank"></a></li>
+            <li><a class="icon-github" href="https://github.com" target="_blank"></a></li>
+            <li><a class="icon-rss" href="https://rss.com" target="_blank"></a></li>
+        </ul>
+    </section>
+</div>
+<div class="wrapper">
+    <section id="tabs" class="tabs-block">
+        <nav class="tabs-block__items">
+            <a href="#tab_01" class="tabs-block__item">TAB 1</a>
+            <a href="#tab_02" class="tabs-block__item">TAB 2</a>
+            <a href="#tab_03" class="tabs-block__item">TAB 3</a>
+            <div class="tabs-block__empty-item"></div>
+        </nav>
+        <article id="tab_01" class="tabs-block__body">
+            <div class="tabs-block__content">
+                <h2 class="tabs-block__header header">Tabs with soft transitioning effect.</h2>
+                <div class="tabs-block__text">
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        <br>euismod
+                        <br>bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et <br>viverra
+                        <br>justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                        <br>penatibus et magnis dis parturient montes.</p>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        <br>euismod
+                        <br>bibendum laoreet.</p>
+                </div>
+                <button class="tabs-block__button button" type="button">Download</button>
+            </div>
+            <img class="tabs-block__img" src="img/statue_of_liberty.jpg" alt="statue_of_liberty">
+        </article>
+        <article id="tab_02" class="tabs-block__body">
+            <div class="tabs-block__content">
+                <h2 class="tabs-block__header header">Tabs with soft transitioning effect.</h2>
+                <div class="tabs-block__text">
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        <br>euismod
+                        <br>bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et <br>viverra
+                        <br>justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                        <br>penatibus et magnis dis parturient montes.</p>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        <br>euismod
+                        <br>bibendum laoreet.</p>
+                </div>
+                <button class="tabs-block__button button" type="button">Download</button>
+            </div>
+            <img class="tabs-block__img" src="img/central_park.jpg" alt="central_park">
+        </article>
+        <article id="tab_03" class="tabs-block__body">
+            <div class="tabs-block__content">
+                <h2 class="tabs-block__header header">Tabs with soft transitioning effect.</h2>
+                <div class="tabs-block__text">
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        <br>euismod
+                        <br>bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et <br>viverra
+                        <br>justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                        <br>penatibus et magnis dis parturient montes.</p>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        <br>euismod
+                        <br>bibendum laoreet.</p>
+                </div>
+                <button class="tabs-block__button button-download" type="button">Download</button>
+            </div>
+            <img class="tabs-block__img" src="img/brooklyn_bridge.jpg" alt="brooklyn-bridge">
+        </article>
+    </section>
+    <section id="about" class="about-block block">
+        <h2 class="about-block__title title">why this is awesome</h2>
+        <div class="separator"></div>
+        <p class="about-block__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <ul class="about-block__list">
+            <li class="about-block__item">
+                <h3 class="about-block__header header">Thoughtful Design</h3>
+                <p class="about-block__text text">Lorem ipsum dolor sit amet, consectetur<br> adipiscing<br>
+                    elit. Aenean euismod bibendum laoreet.<br> Proin gravida dolor sit amet lacus <br>accumsan et
+                    viverra.</p>
+            </li>
+            <li class="about-block__item">
+                <h3 class="about-block__header header">Thoughtful Design</h3>
+                <p class="about-block__text text">Lorem ipsum dolor sit amet, consectetur<br> adipiscing<br>
+                    elit. Aenean euismod bibendum laoreet.<br> Proin gravida dolor sit amet lacus <br>accumsan et
+                    viverra.</p>
+            </li>
+            <li class="about-block__item">
+                <h3 class="about-block__header header">Thoughtful Design</h3>
+                <p class="about-block__text text">Lorem ipsum dolor sit amet, consectetur<br> adipiscing<br>
+                    elit. Aenean euismod bibendum laoreet.<br> Proin gravida dolor sit amet lacus <br>accumsan et
+                    viverra.</p>
+            </li>
+        </ul>
+    </section>
+</div>
+<div class="pricing-block__wrapper">
+    <section id="pricing" class="pricing-block block">
+        <h2 class="pricing-block__title title">pricing options</h2>
+        <div class="separator"></div>
+        <p class="pricing-block__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <ul class="pricing-block__list">
+            <li class="pricing-block__item">
+                <div class="pricing-block__info">
+                    <h3 class="pricing-block__header header">Basic</h3>
+                    <p class="pricing-block__subheader">$10</p>
+                    <p class="pricing-block__text text">Free for life</p>
+                </div>
+                <ul class="pricing-block__advantage">
+                    <li class="pricing-block__text text">1 gb of space</li>
+                    <li class="pricing-block__text text">1 gb of space</li>
+                    <li class="pricing-block__text text">1 gb of space</li>
+                    <li class="pricing-block__text text">1 gb of space</li>
+                    <li class="pricing-block__text text">1 gb of space</li>
+                    <li class="pricing-block__text text">1 gb of space</li>
+                </ul>
+            </li>
+            <li class="pricing-block__item">
+                <div class="pricing-block__info">
+                    <h3 class="pricing-block__header header">Optima</h3>
+                    <p class="pricing-block__subheader">$20</p>
+                    <p class="pricing-block__text text">Free for life</p>
+                </div>
+                <ul class="pricing-block__advantage">
+                    <li class="pricing-block__text text">1 gb of space</li>
+                    <li class="pricing-block__text text">1 gb of space</li>
+                    <li class="pricing-block__text text">1 gb of space</li>
+                    <li class="pricing-block__text text">1 gb of space</li>
+                    <li class="pricing-block__text text">1 gb of space</li>
+                    <li class="pricing-block__text text">1 gb of space</li>
+                </ul>
+            </li>
+            <li class="pricing-block__item">
+                <div class="pricing-block__info">
+                    <h3 class="pricing-block__header header">Pro</h3>
+                    <p class="pricing-block__subheader">$30</p>
+                    <p class="pricing-block__text text">Free for life</p>
+                </div>
+                <ul class="pricing-block__advantage">
+                    <li class="pricing-block__text text">1 gb of space</li>
+                    <li class="pricing-block__text text">1 gb of space</li>
+                    <li class="pricing-block__text text">1 gb of space</li>
+                    <li class="pricing-block__text text">1 gb of space</li>
+                    <li class="pricing-block__text text">1 gb of space</li>
+                    <li class="pricing-block__text text">1 gb of space</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+</div>
+<div class="wrapper">
+    <section id="customers" class="customers-block block">
+        <h2 class="customers-block__title title">what our customers are saying</h2>
+        <div class="separator"></div>
+        <p class="customers-block__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <ul class="customers-block__list">
+            <li class="customers-block__item">
+                <div class="customers-block__text text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Doloribus
+                    accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+                </div>
+                <div class="customers-block__author">
+                    <img class="customers-block__img" src="img/davis_rhiel_madsen.png" alt="Davis Rhiel Madsen">
+                    <div class="customers-block__signature">
+                        <h3 class="customers-block__header header">Davis Rhiel Madsen</h3>
+                        <p class="customers-block__subheader subtitle">Manager</p>
+                    </div>
+                </div>
+            </li>
+            <li class="customers-block__item">
+                <div class="customers-block__text text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Doloribus
+                    accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+                </div>
+                <div class="customers-block__author">
+                    <img class="customers-block__img" src="img/jaydon_rosser.png" alt="Jaydon Rosser">
+                    <div class="customers-block__signature">
+                        <h3 class="customers-block__header header">Jaydon Rosser</h3>
+                        <p class="customers-block__subheader subtitle">Manager</p>
+                    </div>
+                </div>
+            </li>
+            <li class="customers-block__item">
+                <div class="customers-block__text text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Doloribus
+                    accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+                </div>
+                <div class="customers-block__author">
+                    <img class="customers-block__img" src="img/cooper_dorwart.png" alt="Cooper Dorwart">
+                    <div class="customers-block__signature">
+                        <h3 class="customers-block__header header">Cooper Dorwart</h3>
+                        <p class="customers-block__subheader subtitle">Manager</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+</div>
+<div class="design-block__wrapper">
+    <section class="design-block block">
+        <h2 class="design-block__title design-block__title_white title">stylish axure design</h2>
+        <div class="separator_white"></div>
+        <p class="design-block__subtitle design-block__subtitle_white subtitle">Use the sections you need, remove the
+            ones you don't. Create gorgeous prototypes faster than ever!</p>
+        <button class="design-block__button design-block__button_white button" type="button">Download</button>
+    </section>
+</div>
+<div class="wrapper">
+    <section id="contact" class="contact-block block">
+        <h2 class="contact-block__title title">contact us</h2>
+        <div class="separator"></div>
+        <p class="contact-block__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <form class="contact-block__forms" action="https://echo.htmlacademy.ru/courses" method="post">
+            <div class="contact-block__data">
+                <div class="contact-block__inputs">
+                    <label>
+                        <input class="contact-block__input input" type="text" name="name" placeholder="Name">
+                    </label>
+                    <label>
+                        <input class="contact-block__input input" type="email" name="email" placeholder="Email">
+                    </label>
+                    <label>
+                        <input class="contact-block__input input" type="password" name="password"
+                               placeholder="Password">
+                    </label>
+                </div>
+                <label class="contact-block__message">
+                    <textarea class="contact-block__textarea" placeholder="Message"></textarea>
+                </label>
+            </div>
+            <button class="contact-block__button button" type="submit">Send Message</button>
+        </form>
+    </section>
+</div>
+<div class="footer-block__wrapper">
+    <section class="footer-block">
+        <ul class="footer-block__links links">
+            <li><a class="icon-facebook" href="https://facebook.com" target="_blank"></a></li>
+            <li><a class="icon-twitter" href="https://twitter.com" target="_blank"></a></li>
+            <li><a class="icon-linkedin" href="https://www.linkedin.com" target="_blank"></a></li>
+            <li><a class="icon-pinterest" href="https://www.pinterest.com" target="_blank"></a></li>
+            <li><a class="icon-instagram" href="https://www.instagram.com" target="_blank"></a></li>
+            <li><a class="icon-github" href="https://github.com" target="_blank"></a></li>
+            <li><a class="icon-rss" href="https://rss.com" target="_blank"></a></li>
+        </ul>
+        <p class="footer-block__copyright subtitle">© 2015 Axure Themes</p>
+    </section>
+</div>
 </body>
 </html>

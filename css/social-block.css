@@ -1,0 +1,32 @@
+.social-block__wrapper {
+    background-color: #F8EFEF;
+}
+
+.social-block {
+    max-width: 1170px;
+    padding: 20px 0;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-block__text {
+    max-width: 470px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+p.social-block__subtitle {
+    margin-top: 30px;
+}
+
+.social-block__links {
+    margin-left: 40px;
+}
+
+.social-block__links li a {
+    text-decoration: none;
+}

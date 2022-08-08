@@ -1,93 +1,78 @@
-.pricing__wrapper {
-    width: 100%;
+.pricing-block__wrapper {
+    background-color: #F5F5F5;
+}
 
-    display: flex;
-    justify-content: center;
+.pricing-block {
+    max-width: 1170px;
+    margin: auto;
 
     background-color: #F5F5F5;
 }
 
-.pricing {
-    background-color: #F5F5F5;
-}
-
-.pricing__options {
-    margin-top: 79px;
-    gap: 30px;
+.pricing-block__list {
+    margin-top: 80px;
 
     display: flex;
     justify-content: space-between;
 }
 
-.pricing__package {
+.pricing-block__item {
     width: 370px;
-    margin-bottom: 50px;
 
     list-style: none;
+
+    background-color: #FFFFFF;;
 }
 
-.pricing__package_active {
+.pricing-block__item:hover {
     margin-top: -20px;
     margin-bottom: auto;
 
     box-shadow: 0 4px 10px rgba(51, 51, 51, 0.2);
+
+    cursor: pointer;
 }
 
-.pricing__info {
-    background: #333333;
-}
-
-.pricing__info > * {
+.pricing-block__info > * {
+    padding: 15px 50px;
     border: 1px solid #F5F5F5;
-}
-
-.pricing__header {
-    min-height: 60px;
-
-    color: #FFFFFF;
-}
-
-.pricing__subheader {
-    min-height: 100px;
 
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    background-color: #333333;
+}
+
+.pricing-block__header {
+    min-height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-block__subheader {
+    min-height: 100px;
 
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-
-    color: #FFFFFF;
 }
 
-.pricing__text {
+.pricing-block__text {
     min-height: 50px;
+    padding: 15px 50px;
 
     display: flex;
     align-items: center;
     justify-content: center;
+
+    text-align: center;
 
     color: #86878B
-}
-
-.pricing__info-space {
-    padding: 0;
-}
-
-.pricing__space {
-    padding: 15px 0 15px 0;
-    margin-top: 1px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    list-style: none;
-    text-transform: capitalize;
-
-    background-color: #FFFFFF;
-    color: #86878B;
 }

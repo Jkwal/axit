@@ -1,0 +1,65 @@
+.customers-block__list {
+    margin-top: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style-type: none;
+}
+
+.customers-block__item {
+    width: 370px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.customers-block__text {
+    position: relative;
+
+    padding: 20px;
+    border-radius: 10px;
+
+    text-align: center;
+
+    color: #86878B;
+    background-color: #E2E2E2;
+}
+
+
+.customers-block__text::after {
+    position: absolute;
+    content: "";
+
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid #E2E2E2;
+
+    left: 60px;
+    bottom: -20px;
+}
+
+.customers-block__author {
+    position: relative;
+
+    margin-top: 80px;
+
+    display: flex;
+}
+
+.customers-block__subheader {
+    justify-content: flex-start;
+}
+
+.customers-block__img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+.customers-block__signature {
+    margin-left: 30px;
+}
+
+

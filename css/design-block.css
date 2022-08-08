@@ -1,0 +1,46 @@
+.design-block__wrapper {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/night_city.png);
+    background-size: 1510px 442px;
+}
+
+.design-block {
+    max-width: 1170px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.design-block__button {
+    margin-top: 70px;
+}
+
+.design-block__title_white {
+    color: #FFFFFF;
+}
+
+.design-block__subtitle_white {
+    color: #FFFFFF;
+}
+
+.design-block__button_white {
+    width: 370px;
+    border: 1px solid #FFFFFF;
+
+    background-color: transparent;
+}
+
+.design-block__button_white:hover {
+    border: 1px solid #EC7979;
+
+    color: #EC7979;
+    background-color: transparent;
+}
+
+.design-block__button_white:active {
+    border: 2px solid #AB4949;
+
+    color: #FFFFFF;
+    background-color: #AB4949;
+}

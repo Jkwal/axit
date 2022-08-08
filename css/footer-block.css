@@ -1,0 +1,30 @@
+.footer-block__wrapper {
+    background-color: #000000;
+}
+
+.footer-block {
+    max-width: 1170px;
+    padding: 30px 0;
+    margin: 0 auto;
+}
+
+.footer-block {
+    margin: 0 auto;
+
+    font-size: 42px;
+}
+
+.footer-block__links{
+    justify-content: center;
+}
+
+.footer-block__links > li:not(:first-child) {
+    margin-left: 50px;
+}
+
+.footer-block__links li a {
+    text-decoration: none;
+}
+.footer-block__copyright {
+    margin-top: 20px;
+}

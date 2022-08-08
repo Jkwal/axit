@@ -1,16 +1,18 @@
-.tabs {
+.tabs-block {
+    padding-top: 100px;
     background-color: #FFFFFF;
 }
 
-.tabs__tab-bar {
+.tabs-block__items {
     display: flex;
 }
 
-.tabs__btn {
-    width: 203px;
+.tabs-block__item {
+    min-width: 203px;
     min-height: 40px;
     border: none;
     border-bottom: 1px solid #C6CBCD;
+    padding: 13px 10px 13px 10px;
 
     display: flex;
     justify-content: center;
@@ -22,38 +24,63 @@
     font-size: 14px;
     line-height: 19px;
     word-break: break-all;
+    text-decoration: none;
 
+    color: #333333;
     background-color: #FFFFFF;
 }
 
-.tabs__btn_active {
+.tabs-block__item:hover {
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+}
+.tabs-block__item:target{
     border: 1px solid #C6CBCD;
     border-bottom: none;
     border-radius: 5px 5px 0 0;
 }
 
-.tabs__btn_empty {
-    width: 600px;
+.tabs-block__empty-item {
+    width: 100%;
+    border-bottom: 1px solid #C6CBCD;
 }
 
-.tabs__card {
+.tabs-block__body {
     border: 1px solid #C6CBCD;
     border-top: none;
 
-    display: flex;
     justify-content: space-between;
+
+    display: none;
 }
 
-.tabs__title {
-    padding: 50px 0;
-    margin: 1px 0 0 100px;
+.tabs-block__body:target {
+    display: flex;
+}
 
+.tabs-block__content {
+    padding: 40px 41px 0 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs-block__header {
     font-size: 30px;
     line-height: 41px;
 }
 
-.tabs__text {
-    margin: 27px 0 0 100px;
+.tabs-block__text {
+    margin-top: 70px;
+}
+
+.tabs-block__text > p:not(:first-child) {
+    margin-top: 20px;
+}
+
+.tabs-block__button {
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 

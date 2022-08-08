@@ -1,0 +1,108 @@
+.banner-block__wrapper {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/city.jpg);
+    background-size: 1510px 1026px;
+}
+
+.banner-block {
+    max-width: 1170px;
+    padding-top: 230px;
+    padding-bottom: 190px;
+    margin: auto;
+
+    display: flex;
+}
+
+.banner-block__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.banner-block__title_white {
+    margin-top: 85px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.banner-block__button_white {
+    width: 270px;
+    min-height: 58px;
+    padding: 15px;
+    margin-top: 40px;
+    border: 1px solid #FFFFFF;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.banner-block__button_white:hover {
+    border: 1px solid #EC7979;
+
+    color: #EC7979;
+    background-color: transparent;
+}
+
+.banner-block__button_white:active {
+    border: 2px solid #AB4949;
+
+    color: #FFFFFF;
+    background-color: #AB4949;
+}
+
+.banner-block__info .separator_white{
+    margin: 60px 0 0 0;
+}
+
+.banner-block__form{
+    max-width: 470px;
+    max-height: 450px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #FFFFFF;
+}
+
+h3.banner-block__header{
+    padding: 40px 0 40px 0;
+    text-transform: uppercase;
+}
+.banner-block__red-text{
+    color: #EC7979;
+}
+.banner-block__button-submit{
+    min-width: 470px;
+    min-height: 58px;
+    margin-top: 80px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.banner-block__inputs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner-block__inputs > label:not(:first-child) {
+    margin-top: 40px;
+}
+.banner-block__inputs > label input{
+    width: 370px;
+}
