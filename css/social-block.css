@@ -1,32 +1,183 @@
-.social-block__wrapper {
-    background-color: #F8EFEF;
+@media (min-width: 1025px) {
+
+    .social-block__wrapper {
+        background-color: #F8EFEF;
+    }
+
+    .social-block {
+        max-width: 1200px;
+        padding: 20px 15px;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .social-block__text {
+        width: 40%;
+    }
+
+    .social-block__header {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        text-transform: capitalize;
+
+        color: #333333;
+    }
+
+    .social-block__subtitle {
+        margin-top: 25px;
+
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #86878B;
+    }
+
+    .social-block__links {
+        margin-left: 4%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex: 1 1;
+        gap: 4%;
+
+        font-size: 55px;
+
+        list-style-type: none;
+    }
+
+    .social-block__links li a {
+        text-decoration: none;
+    }
 }
 
-.social-block {
-    max-width: 1170px;
-    padding: 20px 0;
-    margin: auto;
+@media (min-width: 768px) and (max-width: 1024px) {
 
-    display: flex;
-    justify-content: space-between;
+    .social-block__wrapper {
+        background-color: #F8EFEF;
+    }
+
+    .social-block {
+        width: 100%;
+        padding: 10px 15px;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .social-block__text {
+        width: 40%;
+    }
+
+    .social-block__header {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: capitalize;
+
+        color: #333333;
+    }
+
+    .social-block__subtitle {
+        margin-top: 20px;
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+
+        color: #86878B;
+    }
+
+    .social-block__links {
+        margin-left: 3%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex: 1 1;
+        gap: 4%;
+
+        font-size: 45px;
+        list-style-type: none;
+    }
+
+    .social-block__links li a {
+        text-decoration: none;
+    }
+
 }
 
-.social-block__text {
-    max-width: 470px;
+@media (max-width: 767px) and (min-width: 320px){
 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
+    .social-block__wrapper {
+        background-color: #F8EFEF;
+    }
 
-p.social-block__subtitle {
-    margin-top: 30px;
-}
+    .social-block {
+        width: 100%;
+        padding: 40px 15px;
+        margin: 0 auto;
 
-.social-block__links {
-    margin-left: 40px;
-}
+        display: flex;
+        flex-direction: column;
+    }
 
-.social-block__links li a {
-    text-decoration: none;
+    .social-block__text {
+        width: 95%;
+
+        align-self: center;
+
+        text-align: center;
+    }
+
+    .social-block__header {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: capitalize;
+
+        color: #333333;
+    }
+
+    .social-block__subtitle {
+        margin-top: 30px;
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+
+        color: #86878B;
+    }
+
+    .social-block__links {
+        margin-top: 30px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 6%;
+
+        font-size: 25px;
+        list-style-type: none;
+    }
+
+    .social-block__links li a {
+        text-decoration: none;
+    }
+
 }

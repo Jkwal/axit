@@ -1,52 +1,277 @@
-.header-block__wrapper{
-    background-color: #000000;
+@media (min-width: 1025px) {
+
+    .header-block__wrapper {
+        background-color: #000000;
+    }
+
+    .header-block {
+        max-width: 1200px;
+        padding: 0 15px;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-block__logo {
+        padding: 22px 0;
+    }
+
+    .header-block__nav {
+        display: flex;
+    }
+
+    .header-block__links {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-block__links > li {
+        max-width: 75px;
+        padding: 28px 0;
+        margin-left: 60px;
+
+        cursor: pointer;
+        list-style-type: none;
+    }
+
+    .header-block__link {
+        padding: 30px 0;
+
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+
+        text-decoration: none;
+        transition-duration: 0.4s;
+
+        color: #FFFFFF;
+    }
+
+    .header-block__link:hover {
+        transition-duration: 0.4s;
+
+        color: #CCCCCC;
+
+    }
+
+    #toggler {
+        opacity: 0;
+    }
 }
 
-.header-block{
-    max-width: 1170px;
-    margin: 0 auto;
+@media (min-width: 768px) and (max-width: 1024px) {
 
-    display: flex;
-    justify-content: space-between;
+    .header-block__wrapper {
+        background-color: #000000;
+    }
+
+    .header-block {
+        width: 100%;
+        padding: 0 15px;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-block__logo {
+        padding: 22px 0;
+    }
+
+    .header-block__nav {
+        display: flex;
+    }
+
+    .header-block__links {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-block__links > li {
+        max-width: 75px;
+        padding: 28px 0;
+        margin-left: 60px;
+
+        cursor: pointer;
+        list-style-type: none;
+    }
+
+    .header-block__link {
+        padding: 30px 0;
+
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+
+        text-decoration: none;
+        transition-duration: 0.4s;
+
+        color: #FFFFFF;
+    }
+
+    .header-block__link:hover {
+        transition-duration: 0.4s;
+
+        color: #CCCCCC;
+    }
+
+    #toggler {
+        opacity: 0;
+    }
 }
 
-.header-block__logo{
-    padding: 20px 0;
+@media (max-width: 767px) {
+
+    .header-block__wrapper {
+        width: 100%;
+
+        position: fixed;
+        z-index: 50;
+        background-color: #000000;
+    }
+
+    .header-block {
+        max-width: 100%;
+        padding: 0 15px;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-block__logo {
+        padding: 19px 0;
+
+        position: relative;
+        z-index: 2;
+    }
+
+    .header-block__nav {
+        display: flex;
+    }
+
+    .header-block__links > li {
+        padding: 30px;
+        cursor: pointer;
+        list-style-type: none;
+    }
+
+    .header-block__link {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+
+        text-decoration: none;
+        transition-duration: 0.4s;
+
+        color: #FFFFFF;
+    }
+
+    .header-block__link:hover {
+        transition-duration: 0.4s;
+
+        color: #CCCCCC;
+    }
+
+    /*Гамбургер меню*/
+    /* скрываем чекбокс */
+    #toggler {
+        opacity: 0;
+    }
+
+    /* стилизуем кнопку */
+    .header-block__button {
+        width: 24px;
+        height: 18px;
+        margin-right: 20px;
+
+
+        display: flex;
+        align-items: center;
+        align-self: center;
+
+        position: relative;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    /* добавляем "гамбургер" */
+    .header-block__button > span,
+    .header-block__button > span::before,
+    .header-block__button > span::after {
+        width: 100%;
+        height: 3px;
+
+        display: block;
+        position: absolute;
+
+        background-color: #FFFFFF;
+    }
+
+    .header-block__button > span::before {
+        content: '';
+        top: -8px;
+    }
+
+    .header-block__button > span::after {
+        content: '';
+        top: 8px;
+    }
+
+    /* контейнер меню */
+    .header-block__links {
+        width: 100%;
+        top: -300px;
+        padding-top: 66px;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        visibility: hidden;
+
+        list-style: none;
+        text-align: center;
+
+        background-color: #000000;
+    }
+
+    /* открыть-закрыть меню*/
+    #toggler:checked ~ .header-block__button > span {
+        transform: rotate(45deg);
+    }
+
+    #toggler:checked ~ .header-block__button > span::before {
+        top: 0;
+        transform: rotate(0);
+    }
+
+    #toggler:checked ~ .header-block__button > span::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+
+    #toggler:checked ~ .header-block__links {
+        visibility: visible;
+        top: 0;
+        left: 0;
+        transition-duration: 0.2s;
+    }
+
+    /* анимации*/
+    .header-block__button > span::before,
+    .header-block__button > span::after {
+        transition-duration: 0.2s;
+    }
+
 }
 
-.header-block__links{
-    display: flex;
-}
 
-.header-block__items{
-    display: flex;
-    align-self: center;
 
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 19px;
-    text-transform: capitalize;
-
-    color: #FFFFFF;
-}
-
-.header-block__item{
-    max-width: 75px;
-    margin-left: 55px;
-
-    list-style-type: none;
-}
-.header-block__item a{
-    padding: 27px 0;
-
-    cursor: pointer;
-    text-decoration: none;
-
-    color: #FFFFFF;
-}
-
-.header-block__item a:hover{
-    color: #CCCCCC;
-}

@@ -27,8 +27,11 @@
 .icon-facebook:before {
   content: "\e900";
   color: #ccc;
+  transition-duration: 0.4s;
 }
 .icon-facebook:hover::before {
+  transition-duration: 0.4s;
+
   color: #FFFFFF;
 }
 
@@ -36,47 +39,65 @@
 .icon-github:before {
   content: "\e901";
   color: #ccc;
+  transition-duration: 0.4s;
 }
 .icon-github:hover::before {
+  transition-duration: 0.4s;
+
   color: #FFFFFF;
 }
 
 .icon-instagram:before {
   content: "\e902";
   color: #ccc;
+  transition-duration: 0.4s;
 }
 .icon-instagram:hover::before {
+  transition-duration: 0.4s;
+
   color: #FFFFFF;
 }
 
 .icon-linkedin:before {
   content: "\e903";
   color: #ccc;
+  transition-duration: 0.4s;
 }
 .icon-linkedin:hover::before {
+  transition-duration: 0.4s;
+
   color: #FFFFFF;
 }
 
 .icon-pinterest:before {
   content: "\e904";
   color: #ccc;
+  transition-duration: 0.4s;
 }
 .icon-pinterest:hover::before {
+  transition-duration: 0.4s;
+
   color: #FFFFFF;
 }
 
 .icon-rss:before {
   content: "\e905";
   color: #ccc;
+  transition-duration: 0.4s;
 }
 .icon-rss:hover::before {
+  transition-duration: 0.4s;
+
   color: #FFFFFF;
 }
 
 .icon-twitter:before {
   content: "\e906";
   color: #ccc;
+  transition-duration: 0.4s;
 }
 .icon-twitter:hover::before {
+  transition-duration: 0.4s;
+
   color: #FFFFFF;
 }

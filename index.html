@@ -2,63 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Axit</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link href="css/iconsfont.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+
 </head>
 <body>
 <div class="header-block__wrapper">
     <section class="header-block">
-        <img class="header-block__logo" src="img/axit_small.svg" alt="AXIT">
-        <nav class="header-block__links">
-            <ul class="header-block__items">
-                <li class="header-block__item"><a href="#tabs">Features</a></li>
-                <li class="header-block__item"><a href="#about">About</a></li>
-                <li class="header-block__item"><a href="#pricing">Pricing</a></li>
-                <li class="header-block__item"><a href="#customers">Reviews</a></li>
-                <li class="header-block__item"><a href="#contact">Contact</a></li>
+        <picture>
+            <source media="(max-width:767px)" srcset="img/axit_mobile.svg">
+            <img class="header-block__logo" src="img/axit_small.svg" alt="AXIT">
+        </picture>
+        <nav class="header-block__nav hamburger-menu">
+            <input id="toggler" type="checkbox">
+            <label class="header-block__button" for="toggler">
+                <span></span>
+            </label>
+            <ul class="header-block__links">
+                <li><a class="header-block__link" href="#tabs">Features</a></li>
+                <li><a class="header-block__link" href="#about">About</a></li>
+                <li><a class="header-block__link" href="#pricing">Pricing</a></li>
+                <li><a class="header-block__link" href="#customers">Reviews</a></li>
+                <li><a class="header-block__link" href="#contact">Contact</a></li>
             </ul>
         </nav>
     </section>
 </div>
 <div class="banner-block__wrapper">
     <section class="banner-block">
-        <div class="banner-block__info">
-            <img class="banner-block__logo" src="img/axit_big.svg" alt="AXIT" width="170px" height="50px">
-            <h1 class="banner-block__title banner-block__title_white">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
-            <div class="separator_white"></div>
-            <p class="banner-block__subtitle banner-block__subtitle_white subtitle">Lorem ipsum dolor sit amet,
-                consectetur
-                adipiscing elit</p>
-            <button class="banner-block__button banner-block__button_white" type="button">Download</button>
+        <div class="banner-block__content">
+            <picture>
+                <source media="(min-width: 768px) and (max-width: 1024px)" srcset="img/axit-tablet.svg">
+                <img class="banner-block__logo" src="img/axit_big.svg" alt="AXIT">
+            </picture>
+            <h1 class="banner-block__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL
+                PROTOTYPES</h1>
+            <p class="banner-block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <button class="banner-block__button" type="button">Download</button>
         </div>
         <form class="banner-block__form" action="https://echo.htmlacademy.ru/courses" method="post">
-            <h3 class="banner-block__header header">Try Your <span class="banner-block__red-text">FREE</span> Trial Today</h3>
-            <div class="banner-block__inputs">
-                <label>
-                    <input class="banner-block__input input" type="text" name="name" placeholder="Name">
-                </label>
-                <label>
-                    <input class="banner-block__input input" type="email" name="email" placeholder="Email">
-                </label>
-                <label>
-                    <input class="banner-block__input input" type="password" name="password" placeholder="Password">
-                </label>
-            </div>
-            <button class="banner-block__button-submit button" type="submit">Get Started</button>
+            <fieldset class="banner-block__fieldset">
+                <h3 class="banner-block__header">Try Your <span class="banner-block__red-text">FREE</span> Trial
+                    Today</h3>
+                <div class="banner-block__inputs">
+                    <label>
+                        <input class="banner-block__input" type="text" name="name" placeholder="Name">
+                    </label>
+                    <label>
+                        <input class="banner-block__input" type="email" name="email" placeholder="Email">
+                    </label>
+                    <label>
+                        <input class="banner-block__input" type="password" name="password" placeholder="Password">
+                    </label>
+                </div>
+                <button class="banner-block__button-submit" type="submit">Get Started</button>
+            </fieldset>
         </form>
     </section>
 </div>
 <div class="social-block__wrapper">
     <section class="social-block">
         <div class="social-block__text">
-            <h3 class="social-block__header header">social media</h3>
-            <p class="social-block__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            <h3 class="social-block__header">social media</h3>
+            <p class="social-block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                 euismod bibendum laoreet.</p>
         </div>
-        <ul class="social-block__links links">
+        <ul class="social-block__links">
             <li><a class="icon-facebook" href="https://facebook.com" target="_blank"></a></li>
             <li><a class="icon-twitter" href="https://twitter.com" target="_blank"></a></li>
             <li><a class="icon-linkedin" href="https://www.linkedin.com" target="_blank"></a></li>
@@ -129,27 +142,26 @@
             <img class="tabs-block__img" src="img/brooklyn_bridge.jpg" alt="brooklyn-bridge">
         </article>
     </section>
-    <section id="about" class="about-block block">
-        <h2 class="about-block__title title">why this is awesome</h2>
-        <div class="separator"></div>
-        <p class="about-block__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <section id="about" class="about-block">
+        <h2 class="about-block__title">why this is awesome</h2>
+        <p class="about-block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <ul class="about-block__list">
             <li class="about-block__item">
-                <h3 class="about-block__header header">Thoughtful Design</h3>
-                <p class="about-block__text text">Lorem ipsum dolor sit amet, consectetur<br> adipiscing<br>
-                    elit. Aenean euismod bibendum laoreet.<br> Proin gravida dolor sit amet lacus <br>accumsan et
+                <h3 class="about-block__header">Thoughtful Design</h3>
+                <p class="about-block__text">Lorem ipsum dolor sit amet, consectetur<br>adipiscing<br>
+                    elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
                     viverra.</p>
             </li>
             <li class="about-block__item">
                 <h3 class="about-block__header header">Thoughtful Design</h3>
-                <p class="about-block__text text">Lorem ipsum dolor sit amet, consectetur<br> adipiscing<br>
-                    elit. Aenean euismod bibendum laoreet.<br> Proin gravida dolor sit amet lacus <br>accumsan et
+                <p class="about-block__text text">Lorem ipsum dolor sit amet, consectetur<br>adipiscing<br>
+                    elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
                     viverra.</p>
             </li>
             <li class="about-block__item">
                 <h3 class="about-block__header header">Thoughtful Design</h3>
-                <p class="about-block__text text">Lorem ipsum dolor sit amet, consectetur<br> adipiscing<br>
-                    elit. Aenean euismod bibendum laoreet.<br> Proin gravida dolor sit amet lacus <br>accumsan et
+                <p class="about-block__text text">Lorem ipsum dolor sit amet, consectetur<br>adipiscing<br>
+                    elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
                     viverra.</p>
             </li>
         </ul>
@@ -295,7 +307,7 @@
 </div>
 <div class="footer-block__wrapper">
     <section class="footer-block">
-        <ul class="footer-block__links links">
+        <ul class="footer-block__links">
             <li><a class="icon-facebook" href="https://facebook.com" target="_blank"></a></li>
             <li><a class="icon-twitter" href="https://twitter.com" target="_blank"></a></li>
             <li><a class="icon-linkedin" href="https://www.linkedin.com" target="_blank"></a></li>

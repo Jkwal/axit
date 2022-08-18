@@ -25,9 +25,7 @@
 }
 
 .pricing-block__item:hover {
-    margin-top: -20px;
-    margin-bottom: auto;
-
+    transform: translateY(-20px);
     box-shadow: 0 4px 10px rgba(51, 51, 51, 0.2);
 
     cursor: pointer;

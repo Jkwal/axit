@@ -124,7 +124,7 @@ body {
     font-size: 58px;
     list-style-type: none;
 }
-
+/* Стилизация полей ввода*/
 .input {
     width: 571px;
     min-height: 38px;
