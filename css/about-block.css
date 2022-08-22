@@ -10,8 +10,6 @@
         align-items: center;
         justify-content: center;
 
-        text-align: center;
-
         background-color: #FFFFFF;
     }
 
@@ -30,9 +28,11 @@
 
     .about-block__title::after {
         position: absolute;
-        bottom: -60px;
-        left: 30%;
         content: "";
+        bottom: -60px;
+        left: 0;
+        right: 0;
+
 
         width: 170px;
         margin: 50px auto 0;
@@ -40,7 +40,6 @@
     }
 
     .about-block__subtitle {
-        width: 50%;
         margin-top: 100px;
 
         font-family: 'Raleway', sans-serif;
@@ -57,6 +56,8 @@
 
         display: flex;
         justify-content: space-around;
+
+        text-align: center;
     }
 
     .about-block__item {
@@ -71,21 +72,27 @@
         position: absolute;
         content: url(../img/bulb.svg);
         top: -150px;
-        left: 35%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
     }
 
     .about-block__item:nth-child(2)::before {
         position: absolute;
         content: url(../img/keyboard.svg);
         top: -150px;
-        left: 35%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
     }
 
     .about-block__item:nth-child(3)::before {
         position: absolute;
         content: url(../img/lightning.svg);
         top: -150px;
-        left: 35%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
     }
 
     .about-block__header {
@@ -113,7 +120,6 @@
 @media (min-width: 768px) and (max-width: 1024px){
 
     .about-block {
-        width: 100%;
         padding: 100px 15px 50px;
         margin: 0 auto;
 
@@ -142,9 +148,10 @@
 
     .about-block__title::after {
         position: absolute;
-        bottom: -60px;
-        left: 30%;
         content: "";
+        bottom: -60px;
+        left: 0;
+        right: 0;
 
         width: 142px;
         margin: 50px auto 0;
@@ -184,21 +191,27 @@
         position: absolute;
         content: url(../img/bulb-tablet-mob.svg);
         top: -150px;
-        left: 35%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
     }
 
     .about-block__item:nth-child(2)::before {
         position: absolute;
         content: url(../img/keyboard-tablet-mob.svg);
         top: -150px;
-        left: 35%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
     }
 
     .about-block__item:nth-child(3)::before {
         position: absolute;
         content: url(../img/lightning-tablet-mob.svg);
         top: -150px;
-        left: 35%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
     }
 
     .about-block__header {
@@ -225,8 +238,7 @@
 @media (max-width: 767px){
 
     .about-block {
-        width: 100%;
-        padding: 100px 15px 50px;
+        padding: 50px 15px 50px;
         margin: 0 auto;
 
         display: flex;
@@ -254,11 +266,12 @@
 
     .about-block__title::after {
         position: absolute;
-        bottom: -60px;
-        left: 30%;
         content: "";
+        bottom: -60px;
+        left: 0;
+        right: 0;
 
-        width: 142px;
+        width: 134px;
         margin: 50px auto 0;
         border: 1px solid #EC7979;
     }
@@ -292,21 +305,27 @@
         position: absolute;
         content: url(../img/bulb-tablet-mob.svg);
         top: -150px;
-        left: 40%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
     }
 
     .about-block__item:nth-child(2)::before {
         position: absolute;
         content: url(../img/keyboard-tablet-mob.svg);
         top: -150px;
-        left: 40%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
     }
 
     .about-block__item:nth-child(3)::before {
         position: absolute;
         content: url(../img/lightning-tablet-mob.svg);
         top: -150px;
-        left: 40%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
     }
 
     .about-block__header {

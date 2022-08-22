@@ -59,14 +59,13 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media(max-width: 1024px) and (min-width: 768px) {
 
     .social-block__wrapper {
         background-color: #F8EFEF;
     }
 
     .social-block {
-        width: 100%;
         padding: 10px 15px;
         margin: 0 auto;
 
@@ -119,14 +118,13 @@
 
 }
 
-@media (max-width: 767px) and (min-width: 320px){
+@media (max-width: 767px){
 
     .social-block__wrapper {
         background-color: #F8EFEF;
     }
 
     .social-block {
-        width: 100%;
         padding: 40px 15px;
         margin: 0 auto;
 
@@ -170,9 +168,10 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 6%;
+        flex-wrap: wrap;
+        gap: 5%;
 
-        font-size: 25px;
+        font-size: 28px;
         list-style-type: none;
     }
 

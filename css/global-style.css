@@ -13,11 +13,6 @@ body {
     background-color: #FFFFFF;
 }
 
-.wrapper {
-    max-width: 1170px;
-    margin: 0 auto;
-}
-
 .block {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -88,7 +83,7 @@ body {
 .button {
     width: 270px;
     padding: 16px;
-    border: none;
+
 
     font-family: 'Open Sans', sans-serif;
     text-transform: capitalize;
