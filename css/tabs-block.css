@@ -328,7 +328,7 @@
     }
 
     .tabs-block__items>label {
-        width: 96px;
+        width: 94px;
 
         padding:10px;
 
@@ -363,7 +363,7 @@
         content: "";
         bottom: -1px;
         left: 0;
-        width: 94px;
+        width: 92px;
         margin: 0 auto;
         border: 1px solid white;
         z-index: 2;
