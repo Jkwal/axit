@@ -83,15 +83,16 @@
         </ul>
     </section>
 </div>
-<div class="wrapper">
-    <section id="tabs" class="tabs-block">
-        <nav class="tabs-block__items">
-            <a href="#tab_01" class="tabs-block__item">TAB 1</a>
-            <a href="#tab_02" class="tabs-block__item">TAB 2</a>
-            <a href="#tab_03" class="tabs-block__item">TAB 3</a>
-            <div class="tabs-block__empty-item"></div>
-        </nav>
-        <article id="tab_01" class="tabs-block__body">
+<section id="tabs" class="tabs-block">
+    <nav class="tabs-block__items">
+        <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+        <label for="tab-btn-1" class="tabs-block__item">TAB 1</label>
+        <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+        <label for="tab-btn-2" class="tabs-block__item">TAB 2</label>
+        <input type="radio" name="tab-btn" id="tab-btn-3" value="">
+        <label for="tab-btn-3" class="tabs-block__item">TAB 3</label>
+
+        <article id="content-1" class="tabs-block__body">
             <div class="tabs-block__content">
                 <h2 class="tabs-block__header">Tabs with soft transitioning effect.</h2>
                 <div class="tabs-block__text">
@@ -108,7 +109,7 @@
             </div>
             <img class="tabs-block__img" src="img/statue_of_liberty.jpg" alt="statue_of_liberty">
         </article>
-        <article id="tab_02" class="tabs-block__body">
+        <article id="content-2" class="tabs-block__body">
             <div class="tabs-block__content">
                 <h2 class="tabs-block__header">Tabs with soft transitioning effect.</h2>
                 <div class="tabs-block__text">
@@ -125,7 +126,7 @@
             </div>
             <img class="tabs-block__img" src="img/central_park.jpg" alt="central_park">
         </article>
-        <article id="tab_03" class="tabs-block__body">
+        <article id="content-3" class="tabs-block__body">
             <div class="tabs-block__content">
                 <h2 class="tabs-block__header">Tabs with soft transitioning effect.</h2>
                 <div class="tabs-block__text">
@@ -141,32 +142,32 @@
             </div>
             <img class="tabs-block__img" src="img/brooklyn_bridge.jpg" alt="brooklyn-bridge">
         </article>
-    </section>
-    <section id="about" class="about-block">
-        <h2 class="about-block__title">why this is awesome</h2>
-        <p class="about-block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <ul class="about-block__list">
-            <li class="about-block__item">
-                <h3 class="about-block__header">Thoughtful Design</h3>
-                <p class="about-block__text">Lorem ipsum dolor sit amet, consectetur<br>adipiscing<br>
-                    elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
-                    viverra.</p>
-            </li>
-            <li class="about-block__item">
-                <h3 class="about-block__header header">Thoughtful Design</h3>
-                <p class="about-block__text text">Lorem ipsum dolor sit amet, consectetur<br>adipiscing<br>
-                    elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
-                    viverra.</p>
-            </li>
-            <li class="about-block__item">
-                <h3 class="about-block__header header">Thoughtful Design</h3>
-                <p class="about-block__text text">Lorem ipsum dolor sit amet, consectetur<br>adipiscing<br>
-                    elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
-                    viverra.</p>
-            </li>
-        </ul>
-    </section>
-</div>
+    </nav>
+</section>
+<section id="about" class="about-block">
+    <h2 class="about-block__title">why this is awesome</h2>
+    <p class="about-block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <ul class="about-block__list">
+        <li class="about-block__item">
+            <h3 class="about-block__header">Thoughtful Design</h3>
+            <p class="about-block__text">Lorem ipsum dolor sit amet, consectetur<br>adipiscing<br>
+                elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
+                viverra.</p>
+        </li>
+        <li class="about-block__item">
+            <h3 class="about-block__header header">Thoughtful Design</h3>
+            <p class="about-block__text text">Lorem ipsum dolor sit amet, consectetur<br>adipiscing<br>
+                elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
+                viverra.</p>
+        </li>
+        <li class="about-block__item">
+            <h3 class="about-block__header header">Thoughtful Design</h3>
+            <p class="about-block__text text">Lorem ipsum dolor sit amet, consectetur<br>adipiscing<br>
+                elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
+                viverra.</p>
+        </li>
+    </ul>
+</section>
 <div class="pricing-block__wrapper">
     <section id="pricing" class="pricing-block">
         <h2 class="pricing-block__title">pricing options</h2>
@@ -220,53 +221,51 @@
         </ul>
     </section>
 </div>
-<div class="wrapper">
-    <section id="customers" class="customers-block">
-        <h2 class="customers-block__title">what our customers are saying</h2>
-        <p class="customers-block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <ul class="customers-block__list">
-            <li class="customers-block__item">
-                <div class="customers-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Doloribus
-                    accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+<section id="customers" class="customers-block">
+    <h2 class="customers-block__title">what our customers are saying</h2>
+    <p class="customers-block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <ul class="customers-block__list">
+        <li class="customers-block__item">
+            <div class="customers-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloribus
+                accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+            </div>
+            <div class="customers-block__author">
+                <img class="customers-block__img" src="img/davis_rhiel_madsen.png" alt="Davis Rhiel Madsen">
+                <div class="customers-block__signature">
+                    <h3 class="customers-block__header">Davis Rhiel Madsen</h3>
+                    <p class="customers-block__subheader">Manager</p>
                 </div>
-                <div class="customers-block__author">
-                    <img class="customers-block__img" src="img/davis_rhiel_madsen.png" alt="Davis Rhiel Madsen">
-                    <div class="customers-block__signature">
-                        <h3 class="customers-block__header">Davis Rhiel Madsen</h3>
-                        <p class="customers-block__subheader">Manager</p>
-                    </div>
+            </div>
+        </li>
+        <li class="customers-block__item">
+            <div class="customers-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloribus
+                accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+            </div>
+            <div class="customers-block__author">
+                <img class="customers-block__img" src="img/jaydon_rosser.png" alt="Jaydon Rosser">
+                <div class="customers-block__signature">
+                    <h3 class="customers-block__header">Jaydon Rosser</h3>
+                    <p class="customers-block__subheader">Manager</p>
                 </div>
-            </li>
-            <li class="customers-block__item">
-                <div class="customers-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Doloribus
-                    accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+            </div>
+        </li>
+        <li class="customers-block__item">
+            <div class="customers-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloribus
+                accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+            </div>
+            <div class="customers-block__author">
+                <img class="customers-block__img" src="img/cooper_dorwart.png" alt="Cooper Dorwart">
+                <div class="customers-block__signature">
+                    <h3 class="customers-block__header">Cooper Dorwart</h3>
+                    <p class="customers-block__subheader">Manager</p>
                 </div>
-                <div class="customers-block__author">
-                    <img class="customers-block__img" src="img/jaydon_rosser.png" alt="Jaydon Rosser">
-                    <div class="customers-block__signature">
-                        <h3 class="customers-block__header">Jaydon Rosser</h3>
-                        <p class="customers-block__subheader">Manager</p>
-                    </div>
-                </div>
-            </li>
-            <li class="customers-block__item">
-                <div class="customers-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Doloribus
-                    accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.
-                </div>
-                <div class="customers-block__author">
-                    <img class="customers-block__img" src="img/cooper_dorwart.png" alt="Cooper Dorwart">
-                    <div class="customers-block__signature">
-                        <h3 class="customers-block__header">Cooper Dorwart</h3>
-                        <p class="customers-block__subheader">Manager</p>
-                    </div>
-                </div>
-            </li>
-        </ul>
-    </section>
-</div>
+            </div>
+        </li>
+    </ul>
+</section>
 <div class="design-block__wrapper">
     <section class="design-block">
         <h2 class="design-block__title">stylish axure design</h2>
@@ -275,31 +274,29 @@
         <button class="design-block__button" type="button">Download</button>
     </section>
 </div>
-<div class="wrapper">
-    <section id="contact" class="contact-block">
-        <h2 class="contact-block__title">contact us</h2>
-        <p class="contact-block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <form class="contact-block__forms" action="https://echo.htmlacademy.ru/courses" method="post">
-            <fieldset class="contact-block__fieldset">
-                <div class="contact-block__inputs">
-                    <label>
-                        <input class="contact-block__input" type="text" name="name" placeholder="Name">
-                    </label>
-                    <label>
-                        <input class="contact-block__input" type="email" name="email" placeholder="Email">
-                    </label>
-                    <label>
-                        <input class="contact-block__input" type="password" name="password" placeholder="Password">
-                    </label>
-                </div>
-                <label class="contact-block__message">
-                    <textarea class="contact-block__textarea" placeholder="Message"></textarea>
+<section id="contact" class="contact-block">
+    <h2 class="contact-block__title">contact us</h2>
+    <p class="contact-block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <form class="contact-block__forms" action="https://echo.htmlacademy.ru/courses" method="post">
+        <fieldset class="contact-block__fieldset">
+            <div class="contact-block__inputs">
+                <label>
+                    <input class="contact-block__input" type="text" name="name" placeholder="Name">
                 </label>
-            </fieldset>
-            <button class="contact-block__button" type="submit">Send Message</button>
-        </form>
-    </section>
-</div>
+                <label>
+                    <input class="contact-block__input" type="email" name="email" placeholder="Email">
+                </label>
+                <label>
+                    <input class="contact-block__input" type="password" name="password" placeholder="Password">
+                </label>
+            </div>
+            <label class="contact-block__message">
+                <textarea class="contact-block__textarea" placeholder="Message"></textarea>
+            </label>
+        </fieldset>
+        <button class="contact-block__button" type="submit">Send Message</button>
+    </form>
+</section>
 <div class="footer-block__wrapper">
     <section class="footer-block">
         <ul class="footer-block__links">
@@ -311,7 +308,7 @@
             <li><a class="icon-github" href="https://github.com" target="_blank"></a></li>
             <li><a class="icon-rss" href="https://rss.com" target="_blank"></a></li>
         </ul>
-        <p class="footer-block__copyright subtitle">© 2015 Axure Themes</p>
+        <p class="footer-block__copyright">© 2015 Axure Themes</p>
     </section>
 </div>
 </body>
