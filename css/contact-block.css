@@ -2,7 +2,7 @@
 
     .contact-block {
         max-width: 1200px;
-        padding: 100px 15px 50px 15px;
+        padding: 104px 15px 49px 15px;
         margin: 0 auto;
 
         display: flex;
@@ -26,7 +26,7 @@
     .contact-block__title::after {
         position: absolute;
         content: "";
-        bottom: -60px;
+        bottom: -55px;
         left: 0;
         right: 0;
 
@@ -37,7 +37,7 @@
     }
 
     .contact-block__subtitle {
-        margin-top: 100px;
+        margin-top: 95px;
 
         font-family: 'Raleway', sans-serif;
         font-style: normal;
@@ -48,7 +48,7 @@
     }
 
     .contact-block__forms {
-        margin-top: 90px;
+        margin-top: 75px;
     }
 
     .contact-block__fieldset {
@@ -64,14 +64,16 @@
     }
 
     .contact-block__inputs > label:not(:first-child) {
-        margin-top: 50px;
+        margin-top: 40px;
     }
 
     .contact-block__input {
-        width: 100%;
-        min-height: 38px;
+        width: 98%;
+        min-height: 48px;
         border: none;
         border-bottom: 1px solid #BDBDBD;
+
+        display: flex;
 
         outline: none;
 
@@ -87,11 +89,13 @@
     }
 
     .contact-block__textarea {
-        width: 90%;
+        width: 100%;
         min-height: 214px;
+        padding-top: 3px;
+        margin-top: 10px;
+        margin-left: 15px;
         border: none;
         border-bottom: 1px solid #BDBDBD;
-        margin-left: 30px;
 
         font-family: 'Open Sans', sans-serif;
         font-style: normal;
@@ -110,9 +114,9 @@
 
     .contact-block__button {
         width: 370px;
-        padding: 16px;
+        padding: 17px;
         border: none;
-        margin-top: 50px;
+        margin-top: 49px;
 
         align-self: center;
 
@@ -151,7 +155,7 @@
 @media (max-width: 1024px) and (min-width: 768px) {
 
     .contact-block {
-        padding: 100px 15px 50px 15px;
+        padding: 96px 15px 50px;
         margin: 0 auto;
 
         display: flex;
@@ -161,6 +165,8 @@
 
     .contact-block__title {
         position: relative;
+
+        padding-bottom: 47px;
 
         font-family: 'Raleway', sans-serif;
         font-style: normal;
@@ -175,7 +181,7 @@
     .contact-block__title::after {
         position: absolute;
         content: "";
-        bottom: -50px;
+        bottom: 0;
         left: 0;
         right: 0;
 
@@ -186,7 +192,7 @@
     }
 
     .contact-block__subtitle {
-        margin-top: 80px;
+        margin-top: 31px;
 
         font-family: 'Raleway', sans-serif;
         font-style: normal;
@@ -197,7 +203,7 @@
     }
 
     .contact-block__forms {
-        margin-top: 90px;
+        margin-top: 57px;
     }
 
     .contact-block__fieldset {
@@ -212,13 +218,17 @@
         flex: 1;
     }
 
+    .contact-block__inputs label{
+        width: 98%;
+    }
+
     .contact-block__inputs > label:not(:first-child) {
-        margin-top: 50px;
+        margin-top: 38px;
     }
 
     .contact-block__input {
         width: 100%;
-        min-height: 38px;
+        min-height: 50px;
         border: none;
         border-bottom: 1px solid #BDBDBD;
 
@@ -236,11 +246,12 @@
     }
 
     .contact-block__textarea {
-        width: 90%;
-        min-height: 214px;
+        width: 98%;
+        min-height: 226px;
+        padding-top: 15px;
+        margin-left: 9px;
         border: none;
         border-bottom: 1px solid #BDBDBD;
-        margin-left: 20px;
 
         font-family: 'Open Sans', sans-serif;
         font-style: normal;
@@ -300,7 +311,7 @@
 @media (max-width: 767px) {
 
     .contact-block {
-        padding: 50px 15px 40px 15px;
+        padding: 46px 15px 40px 15px;
         margin: 0 auto;
 
         text-align: center;
@@ -308,6 +319,8 @@
 
     .contact-block__title {
         position: relative;
+
+        padding-bottom: 47px;
 
         font-family: 'Raleway', sans-serif;
         font-style: normal;
@@ -322,7 +335,7 @@
     .contact-block__title::after {
         position: absolute;
         content: "";
-        bottom: -50px;
+        bottom: 0;
         left: 0;
         right: 0;
 
@@ -333,7 +346,7 @@
     }
 
     .contact-block__subtitle {
-        margin-top: 80px;
+        margin-top: 23px;
 
         font-family: 'Raleway', sans-serif;
         font-style: normal;
@@ -344,7 +357,8 @@
     }
 
     .contact-block__forms {
-        margin-top: 70px;
+        margin-top: 47px;
+
     }
 
     .contact-block__fieldset {
@@ -361,12 +375,13 @@
     }
 
     .contact-block__inputs > label:not(:first-child) {
-        margin-top: 50px;
+        margin-top: 36px;
     }
 
     .contact-block__input {
         width: 288px;
-        min-height: 38px;
+        min-height: 52px;
+
         border: none;
         border-bottom: 1px solid #BDBDBD;
 
@@ -385,10 +400,11 @@
 
     .contact-block__textarea {
         width: 288px;
-        min-height: 214px;
+        min-height: 201px;
+        margin-top: 52px;
         border: none;
         border-bottom: 1px solid #BDBDBD;
-        margin-top: 50px;
+
 
         font-family: 'Open Sans', sans-serif;
         font-style: normal;

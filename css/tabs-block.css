@@ -2,16 +2,16 @@
 
     .tabs-block {
         max-width: 1200px;
-        padding: 100px 15px 0;
+        padding: 98px 15px 0;
         margin: 0 auto;
     }
 
     /* Табы */
-    .tabs-block__items>input[type="radio"] {
+    .tabs-block__items > input[type="radio"] {
         display: none;
     }
 
-    .tabs-block__items>article {
+    .tabs-block__items > article {
         /* скрыть контент по умолчанию */
         display: none;
 
@@ -22,16 +22,17 @@
     }
 
     /* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
-    #tab-btn-1:checked~#content-1,
-    #tab-btn-2:checked~#content-2,
-    #tab-btn-3:checked~#content-3 {
+    #tab-btn-1:checked ~ #content-1,
+    #tab-btn-2:checked ~ #content-2,
+    #tab-btn-3:checked ~ #content-3 {
         display: flex;
+
     }
 
-    .tabs-block__items>label {
+    .tabs-block__items > label {
         width: 203px;
 
-        padding:10px;
+        padding: 10px;
 
         display: inline-block;
         text-align: center;
@@ -49,30 +50,34 @@
         background-color: #FFFFFF;
     }
 
-    .tabs-block__items>input[type="radio"]:checked+label {
+    .tabs-block__items > input[type="radio"]:checked + label {
         border: 1px solid #C6CBCD;
         border-bottom: none;
         border-radius: 5px 5px 0 0;
     }
 
-    .tabs-block__item{
+    .tabs-block__item {
         position: relative;
     }
 
-    .tabs-block__items>input[type="radio"]:checked+.tabs-block__item::after{
+    .tabs-block__item:hover {
+        font-weight: 600;
+    }
+
+    .tabs-block__items > input[type="radio"]:checked + .tabs-block__item::after {
         position: absolute;
         content: "";
-        bottom: -1px;
+        bottom: -3px;
         left: 0;
         width: 201px;
         margin: 0 auto;
-        border: 1px solid white;
+        border: 2px solid #FFFFFF;
         z-index: 2;
     }
-    /* Табы конец */
 
+    /* Табы конец */
     .tabs-block__content {
-        padding: 50px 41px 20px 100px;
+        padding: 42px 41px 20px 99px;
         display: flex;
         flex-direction: column;
     }
@@ -86,7 +91,7 @@
     }
 
     .tabs-block__text {
-        margin-top: 60px;
+        margin-top: 69px;
     }
 
     .text {
@@ -104,7 +109,7 @@
     .tabs-block__button {
         width: 270px;
         padding: 17px;
-        margin-top: 30px;
+        margin-top: 27px;
         border: 0;
 
 
@@ -138,9 +143,10 @@
         background-color: #EC7979;
     }
 
-    .tabs-block__img{
+    .tabs-block__img {
         width: 470px;
         object-fit: cover;
+        z-index: 3;
     }
 
 }
@@ -153,11 +159,11 @@
     }
 
     /* Табы */
-    .tabs-block__items>input[type="radio"] {
+    .tabs-block__items > input[type="radio"] {
         display: none;
     }
 
-    .tabs-block__items>article {
+    .tabs-block__items > article {
         /* скрыть контент по умолчанию */
         display: none;
 
@@ -168,16 +174,16 @@
     }
 
     /* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
-    #tab-btn-1:checked~#content-1,
-    #tab-btn-2:checked~#content-2,
-    #tab-btn-3:checked~#content-3 {
+    #tab-btn-1:checked ~ #content-1,
+    #tab-btn-2:checked ~ #content-2,
+    #tab-btn-3:checked ~ #content-3 {
         display: flex;
     }
 
-    .tabs-block__items>label {
+    .tabs-block__items > label {
         width: 170px;
 
-        padding:10px;
+        padding: 10px;
 
         display: inline-block;
         text-align: center;
@@ -195,30 +201,35 @@
         background-color: #FFFFFF;
     }
 
-    .tabs-block__items>input[type="radio"]:checked+label {
+    .tabs-block__items > input[type="radio"]:checked + label {
         border: 1px solid #C6CBCD;
         border-bottom: none;
         border-radius: 5px 5px 0 0;
     }
 
-    .tabs-block__item{
+    .tabs-block__item {
         position: relative;
     }
 
-    .tabs-block__items>input[type="radio"]:checked+.tabs-block__item::after{
+    .tabs-block__item:hover {
+        font-weight: 600;
+    }
+
+
+    .tabs-block__items > input[type="radio"]:checked + .tabs-block__item::after {
         position: absolute;
         content: "";
-        bottom: -1px;
+        bottom: -2px;
         left: 0;
         width: 168px;
         margin: 0 auto;
-        border: 1px solid white;
+        border: 2px solid white;
         z-index: 2;
     }
-    /* Табы конец */
 
+    /* Табы конец */
     .tabs-block__content {
-        padding: 36px 30px 32px 80px;
+        padding: 27px 30px 29px 85px;
         display: flex;
         flex-direction: column;
     }
@@ -229,12 +240,11 @@
         font-weight: 700;
         font-size: 24px;
         line-height: 33px;
-
-        text-align: center;
     }
 
     .tabs-block__text {
-        margin-top: 70px;
+        margin-top: 67px;
+
         text-align: start;
     }
 
@@ -247,13 +257,13 @@
     }
 
     .tabs-block__text > p:not(:first-child) {
-        margin-top: 20px;
+        margin-top: 16px;
     }
 
     .tabs-block__button {
-        width: 231px;
+        width: 233px;
         padding: 17px;
-        margin-top: 40px;
+        margin-top: 37px;
         border: 0;
 
 
@@ -287,9 +297,11 @@
         background-color: #EC7979;
     }
 
-    .tabs-block__img{
-        width: 398px;
+    .tabs-block__img {
+        width: 592px;
+        height: 382px;
         object-fit: cover;
+        z-index: 3;
     }
 
 }
@@ -305,12 +317,12 @@
         align-items: center;
     }
 
-    /* Табы */
-    .tabs-block__items>input[type="radio"] {
+    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Табы !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+    .tabs-block__items > input[type="radio"] {
         display: none;
     }
 
-    .tabs-block__items>article {
+    .tabs-block__items > article {
         /* скрыть контент по умолчанию */
         display: none;
 
@@ -318,19 +330,20 @@
         border: 1px solid #C6CBCD;
 
         justify-content: space-between;
+
     }
 
     /* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
-    #tab-btn-1:checked~#content-1,
-    #tab-btn-2:checked~#content-2,
-    #tab-btn-3:checked~#content-3 {
+    #tab-btn-1:checked ~ #content-1,
+    #tab-btn-2:checked ~ #content-2,
+    #tab-btn-3:checked ~ #content-3 {
         display: flex;
     }
 
-    .tabs-block__items>label {
+    .tabs-block__items > label {
         width: 94px;
 
-        padding:10px;
+        padding: 10px;
 
         display: inline-block;
         text-align: center;
@@ -348,30 +361,35 @@
         background-color: #FFFFFF;
     }
 
-    .tabs-block__items>input[type="radio"]:checked+label {
+    .tabs-block__items > input[type="radio"]:checked + label {
         border: 1px solid #C6CBCD;
         border-bottom: none;
         border-radius: 5px 5px 0 0;
     }
 
-    .tabs-block__item{
+    .tabs-block__item {
         position: relative;
     }
 
-    .tabs-block__items>input[type="radio"]:checked+.tabs-block__item::after{
+    .tabs-block__item:hover {
+        font-weight: 600;
+    }
+
+
+    .tabs-block__items > input[type="radio"]:checked + .tabs-block__item::after {
         position: absolute;
         content: "";
-        bottom: -1px;
+        bottom: -2px;
         left: 0;
         width: 92px;
         margin: 0 auto;
-        border: 1px solid white;
+        border: 2px solid white;
         z-index: 2;
     }
-    /* Табы конец */
 
+    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Табы конец !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
     .tabs-block__content {
-        padding: 36px 20px 30px 20px;
+        padding: 31px 21px 30px;
 
         display: flex;
         flex-direction: column;
@@ -380,6 +398,8 @@
     }
 
     .tabs-block__header {
+        width: 92%;
+
         font-family: 'Open Sans', sans-serif;
         font-style: normal;
         font-weight: 700;
@@ -389,7 +409,9 @@
     }
 
     .tabs-block__text {
-        margin-top: 66px;
+
+        margin-top: 60px;
+
     }
 
     .text {
@@ -402,7 +424,7 @@
     }
 
     .tabs-block__text > p:not(:first-child) {
-        margin-top: 20px;
+        margin-top: 29px;
     }
 
     .tabs-block__button {
@@ -442,7 +464,7 @@
         background-color: #EC7979;
     }
 
-    .tabs-block__img{
+    .tabs-block__img {
         display: none;
     }
 

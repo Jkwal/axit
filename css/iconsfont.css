@@ -27,6 +27,9 @@
 .icon-facebook:before {
   content: "\e900";
   color: #ccc;
+
+  font-size: 1em;
+
   transition-duration: 0.4s;
 }
 .icon-facebook:hover::before {
@@ -39,6 +42,9 @@
 .icon-github:before {
   content: "\e901";
   color: #ccc;
+
+  font-size: 1.1em;
+
   transition-duration: 0.4s;
 }
 .icon-github:hover::before {
@@ -50,6 +56,9 @@
 .icon-instagram:before {
   content: "\e902";
   color: #ccc;
+
+  font-size: 1.3em;
+
   transition-duration: 0.4s;
 }
 .icon-instagram:hover::before {
@@ -61,6 +70,9 @@
 .icon-linkedin:before {
   content: "\e903";
   color: #ccc;
+
+  font-size: 1em;
+
   transition-duration: 0.4s;
 }
 .icon-linkedin:hover::before {
@@ -72,6 +84,9 @@
 .icon-pinterest:before {
   content: "\e904";
   color: #ccc;
+
+  font-size: 1.1em;
+
   transition-duration: 0.4s;
 }
 .icon-pinterest:hover::before {
@@ -83,6 +98,9 @@
 .icon-rss:before {
   content: "\e905";
   color: #ccc;
+
+  font-size: 1.3em;
+
   transition-duration: 0.4s;
 }
 .icon-rss:hover::before {
@@ -94,10 +112,15 @@
 .icon-twitter:before {
   content: "\e906";
   color: #ccc;
+
+  font-size: 1.1em;
+
   transition-duration: 0.4s;
 }
 .icon-twitter:hover::before {
   transition-duration: 0.4s;
+
+  font-size: 1em;
 
   color: #FFFFFF;
 }

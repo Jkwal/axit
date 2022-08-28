@@ -6,7 +6,7 @@
 
     .header-block {
         max-width: 1200px;
-        padding: 0 15px;
+        padding: 0 46px;
         margin: 0 auto;
 
         display: flex;
@@ -14,7 +14,8 @@
     }
 
     .header-block__logo {
-        padding: 22px 0;
+        padding-top: 22px;
+        margin-left: -86px;
     }
 
     .header-block__nav {
@@ -29,14 +30,14 @@
     .header-block__links > li {
         max-width: 75px;
         padding: 28px 0;
-        margin-left: 60px;
+        margin-left: 65px;
 
         cursor: pointer;
         list-style-type: none;
     }
 
     .header-block__link {
-        padding: 30px 0;
+        padding: 28px 0;
 
         font-family: 'Open Sans', sans-serif;
         font-style: normal;
@@ -69,7 +70,7 @@
     }
 
     .header-block {
-        padding: 0 15px;
+        padding: 0 50px;
         margin: 0 auto;
 
         display: flex;
@@ -77,7 +78,7 @@
     }
 
     .header-block__logo {
-        padding: 22px 0;
+        padding: 21px 0 0 65px;
     }
 
     .header-block__nav {
@@ -92,7 +93,7 @@
     .header-block__links > li {
         max-width: 75px;
         padding: 28px 0;
-        margin-left: 60px;
+        margin-left: 64px;
 
         cursor: pointer;
         list-style-type: none;
@@ -143,7 +144,7 @@
     }
 
     .header-block__logo {
-        padding: 19px 0;
+        padding: 17px 0 11px 6px;
 
         position: relative;
         z-index: 2;
@@ -178,7 +179,8 @@
         color: #CCCCCC;
     }
 
-    /*Гамбургер меню*/
+    /*!!!!!!!!!!!!!!!!!!!!!!!!!! Гамбургер меню !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
     /* скрываем чекбокс */
     #toggler {
         opacity: 0;
@@ -220,7 +222,8 @@
 
     .header-block__button > span::after {
         content: '';
-        top: 8px;
+
+        top: 7px
     }
 
     /* контейнер меню */
@@ -260,7 +263,7 @@
         visibility: visible;
         top: 0;
         left: 0;
-        transition-duration: 0.2s;
+
     }
 
     /* анимации*/

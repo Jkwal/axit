@@ -2,7 +2,7 @@
 
     .customers-block {
         max-width: 1200px;
-        padding: 100px 15px 50px 15px;
+        padding: 104px 15px 64px 15px;
         margin: 0 auto;
 
         display: flex;
@@ -12,7 +12,7 @@
     .customers-block__title {
         position: relative;
 
-        padding-bottom: 60px;
+        padding-bottom: 55px;
 
         font-family: 'Raleway', sans-serif;
         font-style: normal;
@@ -39,7 +39,8 @@
     }
 
     .customers-block__subtitle {
-        margin-top: 50px;
+        margin-top: 39px;
+
 
         font-family: 'Raleway', sans-serif;
         font-style: normal;
@@ -52,8 +53,15 @@
     }
 
     .customers-block__list {
-        margin-top: 80px;
+        margin-top: 83px;
 
+    }
+
+    .customers-block__list input {
+        display: none;
+    }
+
+    .slider{
         display: flex;
         justify-content: space-between;
         gap: 2%;
@@ -71,7 +79,7 @@
     .customers-block__text {
         position: relative;
 
-        padding: 40px 20px;
+        padding: 38px 17px;
         border-radius: 10px;
 
         font-family: 'Raleway', sans-serif;
@@ -96,14 +104,14 @@
         border-right: 15px solid transparent;
         border-top: 20px solid #E2E2E2;
 
-        left: 60px;
+        left: 68px;
         bottom: -20px;
     }
 
     .customers-block__author {
         position: relative;
 
-        margin-top: 80px;
+        margin-top: 65px;
 
         display: flex;
     }
@@ -134,7 +142,7 @@
     }
 
     .customers-block__subheader {
-        margin-top: 30px;
+        margin-top: 26px;
 
         font-family: 'Raleway', sans-serif;
         font-style: normal;
@@ -149,7 +157,7 @@
 @media (max-width: 1024px) and (min-width: 768px) {
 
     .customers-block {
-        padding: 100px 15px 50px 15px;
+        padding: 97px 15px 57px;
         margin: 0 auto;
 
         display: flex;
@@ -159,7 +167,7 @@
     .customers-block__title {
         position: relative;
 
-        padding-bottom: 60px;
+        padding-bottom: 46px;
 
         font-family: 'Raleway', sans-serif;
         font-style: normal;
@@ -186,7 +194,7 @@
     }
 
     .customers-block__subtitle {
-        margin-top: 50px;
+        margin-top: 32px;
 
         font-family: 'Raleway', sans-serif;
         font-style: normal;
@@ -199,8 +207,14 @@
     }
 
     .customers-block__list {
-        margin-top: 30px;
+        margin-top: 31px;
+    }
 
+    .customers-block__list input {
+        display: none;
+    }
+
+    .slider{
         display: flex;
         justify-content: space-between;
         gap: 2%;
@@ -218,7 +232,7 @@
     .customers-block__text {
         position: relative;
 
-        padding: 50px 20px;
+        padding: 50px 28px;
         border-radius: 10px;
 
         font-family: 'Raleway', sans-serif;
@@ -243,14 +257,14 @@
         border-right: 15px solid transparent;
         border-top: 20px solid #E2E2E2;
 
-        left: 60px;
-        bottom: -20px;
+        left: 57px;
+        bottom: -19px;
     }
 
     .customers-block__author {
         position: relative;
 
-        margin-top: 60px;
+        margin-top: 66px;
 
         display: flex;
     }
@@ -262,8 +276,8 @@
     }
 
     .customers-block__signature {
-        padding-top: 10px;
-        margin-left: 20px;
+        padding-top: 6px;
+        margin-left: 22px;
 
         display: flex;
         flex-direction: column;
@@ -281,7 +295,7 @@
     }
 
     .customers-block__subheader {
-        margin-top: 20px;
+        margin-top: 15px;
 
         font-family: 'Raleway', sans-serif;
         font-style: normal;
@@ -297,7 +311,7 @@
 @media (max-width: 767px) {
 
     .customers-block {
-        padding: 30px 15px 30px 15px;
+        padding: 32px 15px 91px;
         margin: 0 auto;
 
         display: flex;
@@ -307,7 +321,8 @@
     .customers-block__title {
         position: relative;
 
-        padding-bottom: 60px;
+        padding-bottom: 33px;
+
 
         font-family: 'Raleway', sans-serif;
         font-style: normal;
@@ -328,13 +343,13 @@
         right: 0;
 
 
-        width: 142px;
+        width: 135px;
         margin: 0 auto;
         border: 1px solid #EC7979;
     }
 
     .customers-block__subtitle {
-        margin-top: 50px;
+        margin-top: 23px;
 
         font-family: 'Raleway', sans-serif;
         font-style: normal;
@@ -347,24 +362,86 @@
     }
 
     .customers-block__list {
-        margin: 30px auto 0;
+        margin: 24px auto 0;
 
         list-style-type: none;
     }
 
+    /* !!!!!!!!!!!!!!!!!! Слайдер !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+    .customers-block__list input {
+        display: none;
+    }
+
+    .customers-block__controls {
+        position: absolute;
+        left: 50%;
+
+        margin-left: -79px;
+    }
+
+    /*Работа кнопок*/
+    .customers-block__controls label {
+        position: relative;
+
+        margin: 51px 41px 0 15px;
+
+        display: inline-block;
+
+        cursor: pointer;
+    }
+
+    .customers-block__controls label::after {
+        position: absolute;
+        content: " ";
+        top: -2px;
+        left: -2px;
+
+        width: 10px;
+        height: 10px;
+
+        display: block;
+
+        border: 1px solid #86878B;
+        border-radius: 50%;
+
+        transition: background ease-in-out 0.4s;
+    }
+
+    .customers-block__controls label:hover::after {
+        background: #E2E2E2;
+    }
+
+    #slide1:checked ~ .customers-block__controls label:nth-of-type(1)::after,
+    #slide2:checked ~ .customers-block__controls label:nth-of-type(2)::after,
+    #slide3:checked ~ .customers-block__controls label:nth-of-type(3)::after {
+        background: #86878B;
+    }
+
+    /*Переключение слайдов*/
+    .slider {
+        position: relative;
+        width: 288px;
+        height: 289px;
+    }
+
     .customers-block__item {
         width: 288px;
+        height: 289px;
+        position: absolute;
+        margin-left: 1000px;
+        transition: margin-left ease-in-out .5s;
+    }
 
+    #slide1:checked ~ .slider .slide1,
+    #slide2:checked ~ .slider .slide2,
+    #slide3:checked ~ .slider .slide3 {
         display: flex;
         flex-direction: column;
+        margin-left: 0;
+        transition: margin-left ease-in-out .5s;
     }
+    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!! Конец слайдера !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
-    .customers-block__list li:nth-child(2) {
-        display: none;
-    }
-    .customers-block__list li:nth-child(3) {
-        display: none;
-    }
     .customers-block__text {
         position: relative;
 
@@ -393,14 +470,14 @@
         border-right: 15px solid transparent;
         border-top: 20px solid #E2E2E2;
 
-        left: 60px;
-        bottom: -20px;
+        left: 45px;
+        bottom: -19px;
     }
 
     .customers-block__author {
         position: relative;
 
-        margin-top: 50px;
+        margin-top: 62px;
 
         display: flex;
     }
@@ -412,8 +489,8 @@
     }
 
     .customers-block__signature {
-        padding-top: 10px;
-        margin-left: 20px;
+        padding-top: 12px;
+        margin-left: 22px;
 
         display: flex;
         flex-direction: column;
@@ -431,7 +508,7 @@
     }
 
     .customers-block__subheader {
-        margin-top: 15px;
+        margin-top: 19px;
 
         font-family: 'Raleway', sans-serif;
         font-style: normal;
