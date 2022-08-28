@@ -155,7 +155,7 @@
     }
 
     .header-block__links > li {
-        padding: 30px;
+        padding: 15px 40% 33px;
         cursor: pointer;
         list-style-type: none;
     }
