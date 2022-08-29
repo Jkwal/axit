@@ -120,7 +120,5 @@
 .icon-twitter:hover::before {
   transition-duration: 0.4s;
 
-  font-size: 1em;
-
   color: #FFFFFF;
 }
