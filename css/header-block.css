@@ -22,8 +22,12 @@
     }
 
     .header-block__links {
+        max-width: 580px;
+
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
+
     }
 
     .header-block__links > li {
@@ -85,8 +89,11 @@
     }
 
     .header-block__links {
+        max-width: 580px;
+
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     .header-block__links > li {

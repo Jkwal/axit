@@ -39,8 +39,9 @@
 
 
         width: 170px;
-        margin:0 auto;
-        border: 1px solid #FFFFFF;
+        height: 1px;
+        margin: 0 auto;
+        background-color: #FFFFFF;
     }
 
     .design-block__subtitle {
@@ -138,8 +139,9 @@
 
 
         width: 142px;
-        margin:0 auto;
-        border: 1px solid #FFFFFF;
+        height: 1px;
+        margin: 0 auto;
+        background-color: #FFFFFF;
     }
 
     .design-block__subtitle {
@@ -236,8 +238,9 @@
 
 
         width: 134px;
-        margin:0 auto;
-        border: 1px solid #FFFFFF;
+        height: 1px;
+        margin: 0 auto;
+        background-color: #FFFFFF;
     }
 
     .design-block__subtitle {

@@ -41,6 +41,8 @@
     }
 
     .social-block__links {
+        max-width: 662px;
+
         padding-top: 12px;
         margin-left: 40px;
 
@@ -49,6 +51,7 @@
         justify-content: space-between;
         flex: 1 1;
         gap: 4%;
+        flex-wrap: wrap;
 
         font-size: 55px;
 
@@ -113,6 +116,8 @@
     }
 
     .social-block__links {
+        max-width: 565px;
+
         margin-top: 13px;
         margin-left: 32px;
 
@@ -121,10 +126,10 @@
         justify-content: space-between;
         flex: 1 1;
         gap: 4%;
+        flex-wrap: wrap;
 
         font-size: 50px;
         list-style-type: none;
-
     }
 
     .social-block__links li a {

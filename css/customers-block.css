@@ -34,8 +34,9 @@
 
 
         width: 170px;
+        height: 1px;
         margin: 0 auto;
-        border: 1px solid #EC7979;
+        background-color: #EC7979;
     }
 
     .customers-block__subtitle {
@@ -189,8 +190,9 @@
 
 
         width: 142px;
+        height: 1px;
         margin: 0 auto;
-        border: 1px solid #EC7979;
+        background-color: #EC7979;
     }
 
     .customers-block__subtitle {
@@ -344,8 +346,9 @@
 
 
         width: 135px;
+        height: 1px;
         margin: 0 auto;
-        border: 1px solid #EC7979;
+        background-color: #EC7979;
     }
 
     .customers-block__subtitle {

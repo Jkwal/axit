@@ -32,8 +32,9 @@
 
 
         width: 170px;
-        margin: 50px auto 0;
-        border: 1px solid #EC7979;
+        height: 1px;
+        margin: 0 auto;
+        background-color: #EC7979;
     }
 
     .contact-block__subtitle {
@@ -187,8 +188,9 @@
 
 
         width: 144px;
-        margin: 50px auto 0;
-        border: 1px solid #EC7979;
+        height: 1px;
+        margin: 0 auto;
+        background-color: #EC7979;
     }
 
     .contact-block__subtitle {
@@ -341,8 +343,9 @@
 
 
         width: 134px;
-        margin: 50px auto 0;
-        border: 1px solid #EC7979;
+        height: 1px;
+        margin: 0 auto;
+        background-color: #EC7979;
     }
 
     .contact-block__subtitle {

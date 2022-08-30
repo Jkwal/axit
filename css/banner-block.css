@@ -38,9 +38,10 @@
         left: 0;
         content: "";
 
-        width: 170px;
-        margin: 50px auto 0;
-        border: 1px solid #FFFFFF;
+        width: 115px;
+        height: 1px;
+        margin: auto 0;
+        background-color: #FFFFFF;
     }
 
     .banner-block__subtitle {
@@ -230,8 +231,9 @@
         left: 0;
 
         width: 115px;
+        height: 1px;
         margin: auto 0;
-        border: 1px solid #FFFFFF;
+        background-color: #FFFFFF;
     }
 
     .banner-block__subtitle {
@@ -389,7 +391,7 @@
     }
 
     .banner-block {
-        padding: 84px 15px 50px 15px;
+        padding: 140px 15px 50px 15px;
         margin: 0 auto;
 
         display: flex;
@@ -431,8 +433,9 @@
         left: 0;
 
         width: 134px;
+        height: 1px;
         margin: 0 auto;
-        border: 1px solid #FFFFFF;
+        background-color: #FFFFFF;
     }
 
     .banner-block__subtitle {
