@@ -72,6 +72,7 @@
         width: 201px;
         margin: 0 auto;
         border: 2px solid #FFFFFF;
+        background-color: #FFFFFF;
         z-index: 2;
     }
 
@@ -223,7 +224,8 @@
         left: 0;
         width: 168px;
         margin: 0 auto;
-        border: 2px solid white;
+        border: 2px solid #FFFFFF;
+        background-color: #FFFFFF;
         z-index: 2;
     }
 
@@ -383,7 +385,8 @@
         left: 0;
         width: 92px;
         margin: 0 auto;
-        border: 2px solid white;
+        border: 2px solid #FFFFFF;
+        background-color: #FFFFFF;
         z-index: 2;
     }
 
