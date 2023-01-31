@@ -1,4 +1,4 @@
 # Axit
 Проект Вяля Евгения
 
-[GitHub Pages](https://jkwal.github.io/axit-Vial/)
+[GitHub Pages](https://jkwal.github.io/axit-TMS/)
